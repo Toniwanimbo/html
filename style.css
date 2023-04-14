@@ -29,6 +29,7 @@ body p {
 
 body ul {
   font-size: 20px;
+  color :red;
 }
 .navbar .navbar-nav a {
   font-size: 2rem;
