@@ -1,0 +1,49 @@
+:root {
+  --primary: #b6895b;
+  --bg: #010101;
+}
+
+body {
+  font-size: 1rem;
+  margin: 0;
+  padding: 1rem;
+  text-align: center;
+  background-image: url(1.jpg);
+  color: #fff;
+}
+
+body h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+body h1 span {
+  color: rgb(43, 171, 226);
+}
+
+body p {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: bold;
+}
+
+body ul {
+  font-size: 20px;
+}
+.navbar .navbar-nav a {
+  font-size: 2rem;
+  font-weight: 100;
+  font-style: italic;
+  color: #fff;
+}
+
+.navbar .navbar a:hover {
+  color: var(--primary);
+}
+.navbar .navbar-nav a::after {
+  content: "";
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 0.1rem solid var(--primary);
+  transform: scaleX(0);
+}
